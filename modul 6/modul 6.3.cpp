@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 
 int main() 
@@ -18,3 +19,21 @@ int main()
 
     return 0;
 }
+=======
+#include <stdio.h>
+
+int main() {
+    // Menggunakan perulangan for untuk mencetak deret angka
+    for (int i = 0; i <= 10; i++) 
+	{
+        // Menggunakan rumus 2 pangkat i untuk mendapatkan nilai yang diinginkan
+        int nilai = 1 << i;
+        printf("%i ", nilai);
+    }
+
+    // Baris baru setelah mencetak deret angka
+    printf("\n");
+
+    return 0;
+}
+>>>>>>> f369406 (first commit)

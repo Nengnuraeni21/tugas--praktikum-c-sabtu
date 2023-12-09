@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 
 int main() 
@@ -19,3 +20,22 @@ int main()
 
     return 0;
 }
+=======
+#include <stdio.h>
+
+int main() {
+    // Kecepatan sepeda dalam meter per detik
+    int kecepatan = 2;
+
+    // Waktu dalam detik
+    int waktu = 100;
+
+    // Menghitung jarak yang ditempuh (kecepatan * waktu)
+    int jarak = kecepatan * waktu;
+
+    // Menampilkan hasil jarak yang ditempuh
+    printf("Jarak yang ditempuh setelah %i detik adalah %i meter.\n", waktu, jarak);
+
+    return 0;
+}
+>>>>>>> f369406 (first commit)
